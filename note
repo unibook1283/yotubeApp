@@ -1,0 +1,15 @@
+-page 만드는 순서
+1. views에 폴더-파일 만들고 파일 안에서 rfce.
+2. App.js 가서 그 파일 안의 function을 import 해와서 Route 생성.
+3. 생성할 때, Auth 값을
+ null : 누구나
+ true : 로그인한 사람만
+ false : 로그인 안한 사람만
+ 들어갈 수 있음.
+ 
+
+
+ -routes 만들 때.
+// client에서 요청이 오면 routes 폴더에 만들어놓은 파일로
+// 가는게 아니라 여기 index.js로 들어온다.
+// 위와같이 저 routes로 보내줘야된다.
